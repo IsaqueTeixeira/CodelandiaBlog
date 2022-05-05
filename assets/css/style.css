@@ -1,0 +1,174 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #eee;
+}
+
+.container {
+
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 10px
+}
+
+
+.header {
+
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+
+}
+
+.logo {
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-left: 120px;
+    padding-top: 30px; */
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+
+.navegation li {
+    list-style: none;
+}
+
+.navegation a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.content {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content .navegation li {
+    position: absolute;
+    right: 0;
+}
+
+.content .logo p,
+.content .navegation li {
+    margin-top: 20px;
+}
+
+/* 
+    search input
+*/
+
+
+::placeholder {
+    color: rgb(153, 153, 153);
+}
+
+form .form-group input[type="text"] {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 15px 15px 15px 40px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffffff93;
+    color: #646464c7;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+form .form-group button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+form .form-group button>i {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: -2.0rem;
+    left: 10px;
+}
+
+.main-conteudo {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.post-item {
+    width: 100%;
+    height: 160px;
+    background: white;
+    margin-bottom: 25px;
+}
+
+.infos {
+    display: flex;
+    position: relative;
+}
+
+
+.data {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    margin: 13px;
+    color: #717171;
+}
+
+.coracao {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.coracao i {
+    font-size: 20px;
+    color: rgba(6, 51, 140, 0.52)
+}
+
+.titulo h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 13px;
+    font-weight: normal;
+}
+
+.descricao p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 13px;
+    color: #717171;
+    line-height: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+
+}
+
+footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lexend Deca', sans-serif;
+    color: white
+}
+
+footer p>a {
+    text-decoration: none;
+    color: white;
+}
